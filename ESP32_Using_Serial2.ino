@@ -6,7 +6,7 @@
  * U2UXD is unused and can be used for your projects.
  * 
 */
-HardwareSerial Serial1(1);
+//HardwareSerial Serial1(1);
 HardwareSerial Serial2(2);
 
 #define RXD2 16
@@ -15,7 +15,7 @@ HardwareSerial Serial2(2);
 void setup() {
   // Note the format for setting a serial port is as follows: Serial2.begin(baud-rate, protocol, RX pin, TX pin);
   Serial.begin(115200);
-  Serial1.begin(9600, SERIAL_8N1, RXD2, TXD2);
+  //Serial1.begin(9600, SERIAL_8N1, RXD2, TXD2);
   Serial2.begin(9600, SERIAL_8N1, RXD2, TXD2);
   Serial.println("Serial Txd is on pin: "+String(TX));
   Serial.println("Serial Rxd is on pin: "+String(RX));
