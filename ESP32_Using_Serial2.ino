@@ -6,8 +6,6 @@
  * U2UXD is unused and can be used for your projects.
  * 
 */
-//HardwareSerial Serial1(1);
-HardwareSerial Serial2(2);
 
 #define RXD2 16
 #define TXD2 17
